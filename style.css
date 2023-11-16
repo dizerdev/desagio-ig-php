@@ -1,0 +1,61 @@
+* {
+  font-family: Tahoma;
+}
+
+body {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  min-height: 300px;
+  padding: 20px;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  position: relative;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+#input-cpf {
+  display: inline-block;
+  width: 40%;
+  margin: 10px;
+}
+
+#input-creci {
+  display: inline-block;
+  width: 40%;
+  margin: 10px;
+}
+
+#input-nome {
+  width: 88%;
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+}
+
+.button {
+  margin: 10px;
+  width: 92%;
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
